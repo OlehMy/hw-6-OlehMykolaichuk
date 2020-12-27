@@ -141,7 +141,7 @@ body {
 }
 .about__wrapper:after {
   content: '';
-  background: url(../../img/image1.png) no-repeat 100% 100%;
+  background: url(../img/image1.png) no-repeat 100% 100%;
   position: absolute;
   width: 885px;
   height: 468px;
