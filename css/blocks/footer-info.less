@@ -1,0 +1,142 @@
+// main: ../style.less
+
+.footer-info {
+   color: @dblue;   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   row-gap: 3rem;
+}
+
+
+
+.footer-info__contacts {
+   display: flex;
+   flex-direction: column;      
+}
+
+.footer-info__logo {   
+   justify-content: start;
+   column-gap: 1rem;
+   margin-bottom: 3rem;   
+}
+
+.footer-info__address {
+   font-family: Avenir;
+   font-size: 0.8rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2rem;
+   letter-spacing: 0.01rem;
+   text-align: left;
+}
+
+.footer-info__mail,
+.footer-info__number {
+   font-family: Avenir;
+   font-size: 0.8rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.2rem;
+   letter-spacing: 0.01rem;
+   text-align: left;
+}
+.footer-info__mail {
+   margin-top: 1rem;
+}
+
+
+
+.footer-info__about {
+   display: flex;
+   flex-direction: column;
+   row-gap: 0.8rem;
+   font-family: Avenir;
+   font-size: 0.8rem;
+   font-style: normal;
+   line-height: 1.2rem;
+   letter-spacing: 0.01rem;
+   text-align: left;
+}
+
+.footer-info__about_title {
+   text-decoration: none;
+   margin-bottom: 1.3rem;
+   font-size: 0.8rem;   
+   font-weight: 900;
+   color: @dblue;
+}
+
+.footer-info__about_date {
+   text-decoration: none;     
+   font-weight: 400;
+   color: @dblue;   
+}
+
+
+
+.footer-info__help {
+   display: flex;
+   flex-direction: column;
+   row-gap: 0.8rem;
+   font-family: Avenir;
+   font-size: 0.8rem;
+   font-style: normal;
+   line-height: 1.2rem;
+   letter-spacing: 0.01rem;
+   text-align: left;
+}
+
+.footer-info__help_title {
+   text-decoration: none;
+   margin-bottom: 1.3rem;
+   font-size: 0.8rem;   
+   font-weight: 900;
+   color: @dblue;
+}
+
+.footer-info__help_date {
+   text-decoration: none;     
+   font-weight: 400;
+   color: @dblue;   
+}
+
+
+
+.footer-info__social {
+   display: flex;
+   flex-direction: column;
+   row-gap: 0.8rem;
+   font-family: Avenir;
+   font-size: 0.8rem;
+   font-style: normal;
+   line-height: 1.2rem;
+   letter-spacing: 0.01rem;
+   text-align: left;
+}
+
+.footer-info__social_title {
+   text-decoration: none;
+   margin-bottom: 1.3rem;
+   font-size: 0.8rem;   
+   font-weight: 900;
+   color: @dblue;
+}
+
+.footer-info__social_link {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   column-gap: 0.7rem;   
+}
+
+.footer-info__social_img {
+   transition: transform .2s linear;
+
+   &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+}

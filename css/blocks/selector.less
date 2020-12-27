@@ -1,0 +1,33 @@
+// main: ../style.less
+
+.selector {
+   display: flex;
+   justify-content: space-between;
+   margin: 3rem 0;
+   width: 85%;
+}
+
+.selector__marker {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 0.5rem;   
+}
+
+.selector__arrow {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 1rem;   
+}
+
+.arrow-left,
+.arrow-right {
+   transition: transform .2s linear;
+
+   &:hover {
+      -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+      transform: scale(1.15);
+   }
+}

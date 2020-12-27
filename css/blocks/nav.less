@@ -1,0 +1,28 @@
+// main: ../style.less
+
+.nav {
+   display: flex;
+   justify-content: space-around;
+   column-gap: 2rem;
+}
+
+.nav__link {
+   text-decoration: none;
+   font-family: Avenir;
+   font-size: 0.8rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.3rem;
+   letter-spacing: 0em;
+   color: @dblue;
+
+   transition: transform .2s linear, font-weight .2s linear;
+
+   &:hover {
+      font-weight: 800;
+      transform: translateY(-2px);
+   }
+
+}
+
+

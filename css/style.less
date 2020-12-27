@@ -1,0 +1,119 @@
+@import "vars";
+
+
+@font-face {
+   font-family: Helvetica;
+   src: url(../fonts/HelveticaRegular.ttf);
+}
+
+@font-face {
+   font-family: Avenir;
+   src: url(../fonts/Avenir-Roman.ttf);
+}
+
+html {
+   font-size: 20px;
+}
+
+body {
+   font-family: 'Avenir', 'Helvetica', sans-serif;
+   font-size: 1rem;
+   //display: flex;
+   background-color: @white2;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+/*blocks*/
+@import "blocks/conteiner.less";
+@import "blocks/heder.less";
+@import "blocks/logo.less";
+@import "blocks/nav.less";
+@import "blocks/button.less";
+@import "blocks/button-type2.less";
+@import "blocks/about.less";
+@import "blocks/help.less";
+@import "blocks/features.less";
+@import "blocks/features-block.less";
+@import "blocks/testimonials.less";
+@import "blocks/slider.less";
+@import "blocks/selector.less";
+@import "blocks/separation.less";
+@import "blocks/signup.less";
+@import "blocks/footer.less";
+@import "blocks/footer-info.less";
+@import "blocks/footer-end.less";
+
+
+
+
+/*mobile*/
+@media screen and (max-width: 1140px) {
+   .about__wrapper {
+      align-items: center;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+
+      &:after {
+         content:none;
+      }
+   }
+   .about__title {
+      width: 100%;
+      text-align: center;
+      font-size: 3rem;      
+   }
+   .about__subtitle {
+      width: 60%;
+      text-align: center;      
+   }
+
+
+   .help__text {
+      width: 85%;
+      margin-bottom: 2rem;
+   }
+   .help__title {
+      width: 100%;
+   }
+   .help__subtitle {
+      width: 100%;
+   }
+   .help__img {
+      width: 80%;
+      height: auto;
+   }
+
+
+   .features-block {
+      width: 100%;
+   }
+   .features-block__text {
+      width: 100%;
+      height: fit-content;
+   }
+   .features-block__img {
+      width: 70%;
+      height: auto;
+   }
+
+
+   .footer-info {
+      flex-direction: column;
+      align-items: center;      
+   }
+
+
+   .footer-end {
+      justify-content: center;
+   }
+}
