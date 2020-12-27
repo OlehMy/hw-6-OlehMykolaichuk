@@ -352,6 +352,7 @@ body {
   width: 85%;
   background-color: #F9FCFE;
   border-radius: 1rem;
+  box-shadow: 0px 20px 0px rgba(33, 35, 83, 0.25);
 }
 .slider__photo {
   margin-top: 3rem;
